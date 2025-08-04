@@ -1,0 +1,108 @@
+/* StayMemories.css */
+.staymem-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 12px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff;
+  }
+  
+  .staymem-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #222;
+  }
+  
+  .staymem-highlight {
+    color: #1a73e8;
+  }
+  
+  .staymem-subtitle {
+    text-align: center;
+    color: #444;
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+  
+  .staymem-cards {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  
+  .staymem-card {
+    flex: 1 1 100px;
+    
+    border-radius: 18px;
+    overflow: hidden;
+    /* background: #f5f5f5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .midcard img{
+    width: 110%;
+    
+  }
+  .staymem-img {
+    width: 100%;
+   
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+  }
+  
+  .staymem-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .staymem-stat {
+    flex: 1 1 80px;
+    text-align: center;
+    padding: 8px 0;
+  }
+  
+  .staymem-icon {
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 2px;
+  }
+  
+  .staymem-statnum {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-right: 2px;
+  }
+  
+  .staymem-statlabel {
+    color: #555;
+    font-size: 0.95rem;
+    display: block;
+  }
+  
+  @media (max-width: 600px) {
+    .staymem-cards {
+      flex-direction: column;
+      gap: 16px;
+    }
+    .staymem-card {
+      max-width: 100%;
+      min-width: 0;
+    }
+    .staymem-img {
+      height: 180px;
+    }
+    .staymem-stats {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }

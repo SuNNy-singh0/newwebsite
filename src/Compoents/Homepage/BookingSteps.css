@@ -1,0 +1,103 @@
+/* BookingSteps.css */
+.booking-steps-container {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Inter', Arial, sans-serif;
+    padding: 0 16px;
+  }
+  
+  .booking-steps-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .booking-steps-subtitle {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 36px;
+  }
+  
+  .booking-steps-flow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 10px 31px;
+  }
+  
+  .booking-step {
+    flex: 1 1 0;
+    min-width: 180px;
+    max-width: 220px;
+    background: #fff;
+    margin: 0 8px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .booking-step-icon {
+    font-size: 2.5rem;
+    background: #f5f6fa;
+    border-radius: 50%;
+    border: 2px dotted #b105f4;
+    width: 56px;
+    height: 56px;
+    display: flex
+;
+    align-items: center;
+    padding: 27px;
+    justify-content: center;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 8px #eaeaea;
+  }
+  
+  .booking-step-content {
+    text-align: center;
+  }
+  
+  .booking-step-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .booking-step-desc {
+    font-size: 0.97rem;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  .booking-step-dotted-line {
+    display: none;
+    position: absolute;
+    right: -100px;
+    top: 28px;
+    width: calc(100% + 16px);
+    height: 2px;
+    border-top: 2px dotted #d1d5db;
+    background-image: radial-gradient(#d1d5db 1px, transparent 0);
+    background-size: 8px 8px;
+    z-index: 0;
+  }
+  .down{
+    margin-top: 50px;
+  }
+  @media (max-width: 900px) {
+    .booking-steps-flow {
+      flex-direction: column;
+      align-items: center;
+    }
+    .booking-step {
+      max-width: 100%;
+      margin-bottom: 32px;
+    }
+    .booking-step-dotted-line {
+      display: none;
+    }
+  }

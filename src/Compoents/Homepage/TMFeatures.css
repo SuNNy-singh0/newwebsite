@@ -1,0 +1,126 @@
+.tm-features-root {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 12px;
+    font-family: 'Inter', Arial, sans-serif;
+    background: #fff;
+  }
+  
+  .tm-features-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  
+  .tm-features-subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 32px;
+  }
+  
+  .tm-features-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 24px;
+  }
+  
+  .tm-features-section--hive {
+    flex-direction: row-reverse;
+  }
+  
+  .tm-features-section-text {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  
+  .tm-features-section-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  
+  .tm-features-section-subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #222;
+    text-align: center;
+  }
+  
+  .tm-features-section-desc {
+    color: #444;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .tm-features-section-image {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 120px;
+  }
+  .tm-features-section--hive{
+    flex-direction: row
+    ;
+  }
+  .tm-features-img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    background: #f5f5f5;
+  }
+  
+  .tm-features-img--luxe {
+   
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+  
+  /* Highlighted words */
+  .tm-features-highlight-holds {
+    color: #3b82f6;
+    font-weight: 500;
+  }
+  .tm-features-highlight-gently {
+    color: #10b981;
+    font-weight: 500;
+  }
+  .tm-features-highlight-grow {
+    color: #3b82f6;
+    font-weight: 500;
+  }
+  .tm-features-highlight-service {
+    color: #3b82f6;
+    font-weight: 500;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 700px) {
+    .tm-features-root {
+      padding: 16px 4px;
+    }
+    .tm-features-section {
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .tm-features-section--hive {
+      flex-direction: column;
+    }
+    .tm-features-section-image {
+      margin-bottom: 8px;
+    }
+    .tm-features-img,
+    .tm-features-img--luxe {
+      max-width: 100%;
+      min-width: 0;
+    }
+  }

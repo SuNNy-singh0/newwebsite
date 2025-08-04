@@ -1,0 +1,90 @@
+.howweworkreplica-container {
+    background: #fff;
+    padding: 32px 12px;
+    border-radius: 18px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .howweworkreplica-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 32px;
+    letter-spacing: -1px;
+    line-height: 1.1;
+  }
+  
+  .howweworkreplica-steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  
+  .howweworkreplica-step {
+    flex: 1 1 180px;
+    min-width: 150px;
+    max-width: 210px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 24px;
+  }
+  
+  .howweworkreplica-step-iconwrap {
+    background: #e53935;
+    border: 5px solid #ffb300;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px #0001;
+  }
+  
+  .howweworkreplica-step-number {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 6px;
+    margin-top: 2px;
+  }
+  
+  .howweworkreplica-step-content {
+    text-align: center;
+  }
+  
+  .howweworkreplica-step-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  
+  .howweworkreplica-step-desc {
+    font-size: 0.93rem;
+    color: #444;
+    opacity: 0.85;
+    line-height: 1.3;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 700px) {
+    .howweworkreplica-steps {
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+    }
+    .howweworkreplica-step {
+      max-width: 320px;
+      width: 100%;
+    }
+    .howweworkreplica-title {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
