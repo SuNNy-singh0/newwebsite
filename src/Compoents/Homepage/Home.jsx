@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner from './Banner'
 import Navbar from './Navbar'
-import TMFeatures from './TmFeatures'
+import TMFeatures from './TMFeatures'
 
 import BookingSteps from './BookingSteps'
 
